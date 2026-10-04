@@ -1,0 +1,182 @@
+[
+  {
+    "family": "F2a_product",
+    "tier": 1,
+    "prompt": "请估算 32 × 16 的值。先给出你的点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 512,
+    "unit": "",
+    "display": "32 × 16",
+    "id": "Q001",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2b_charcount",
+    "tier": 1,
+    "prompt": "下面这段随机字母串中，字母 'y' 一共出现了多少次？\n请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。\n（文本长度 200 字符，你不需要精确逐个数，可以估算。）\n\njmiqgxwvepemtlggdhfimigeuhcennhlbhixmwliitkvaatksfejrztndgelujowrwlzywagbtwzsskqwjqksmoprqjxmwgsknbqbvunqjozjxrafestwkut ...[截断]... yegdungzdexarvhxuibhvblebiumpexejitdkakwycvttwqgtzfdmddwpwjy",
+    "truth": 4,
+    "unit": "次",
+    "display": "字母 'y' 出现次数（长度 200）",
+    "_text": "jmiqgxwvepemtlggdhfimigeuhcennhlbhixmwliitkvaatksfejrztndgelujowrwlzywagbtwzsskqwjqksmoprqjxmwgsknbqbvunqjozjxrafestwkutqzqjklnuvixggvjvpnptyegdungzdexarvhxuibhvblebiumpexejitdkakwycvttwqgtzfdmddwpwjy",
+    "id": "Q002",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2c_seqstat",
+    "tier": 1,
+    "prompt": "有一组共 12 个取自 1–1000 均匀分布的随机整数，其前 5 个是：[712, 276, 906, 513, 738]。\n请估算这 12 个数的平均值。先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 555.0833333333334,
+    "unit": "",
+    "display": "12 个随机整数的均值",
+    "id": "Q003",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2a_product",
+    "tier": 2,
+    "prompt": "请估算 877 × 493 的值。先给出你的点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 432361,
+    "unit": "",
+    "display": "877 × 493",
+    "id": "Q004",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2b_charcount",
+    "tier": 2,
+    "prompt": "下面这段随机字母串中，字母 'r' 一共出现了多少次？\n请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。\n（文本长度 600 字符，你不需要精确逐个数，可以估算。）\n\noyvvomkndpbpaguulgfgseixmqcykzzwammimfbyecxcylkbrqtjwwkpdtkqrhyojwpigezdconhlphwaqpzjwauiunsrjculfhctpexeuwtadeaoctetqvk ...[截断]... owzunsxkvzgqdszunhnrqjmfwppykhicmndwyoyurmebomrwlbefizdgxbex",
+    "truth": 24,
+    "unit": "次",
+    "display": "字母 'r' 出现次数（长度 600）",
+    "_text": "oyvvomkndpbpaguulgfgseixmqcykzzwammimfbyecxcylkbrqtjwwkpdtkqrhyojwpigezdconhlphwaqpzjwauiunsrjculfhctpexeuwtadeaoctetqvknjqykgeliegxkviyqksuovfyndqkqqyidytdnhsmpdanotibjjwrlzarlzkazuisfhnoloeuxkcqcfhyaplawclfuiiuemntshsphzqwmkarsjhutfhitlzvfakhgnbeuqwyivvomsoiqrycalkcpcdpmpsyvrxtpumoqjmfsszzksvdwxyecdafkvpeuhkmgpwolewvjznczpuulifbefrponthrrejlpraomihosbsgcbuferdyrxsmseztvnxjjlxisikzheixsldnqgsqmcongsvsmvljhkytuqpcetljuidjriovtudzwgrismoisucbnwzcqosfxnhnvcrxhoslbpzxubkvarycncxecrdetnmmiypzazgvrwnkhsqwtanfqfuwkmiyityeqbduazgwnqacggesoxrowzunsxkvzgqdszunhnrqjmfwppykhicmndwyoyurmebomrwlbefizdgxbex",
+    "id": "Q005",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2c_seqstat",
+    "tier": 2,
+    "prompt": "有一组共 40 个取自 1–1000 均匀分布的随机整数，其前 5 个是：[985, 410, 372, 875, 973]。\n请估算这 40 个数的平均值。先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 578.95,
+    "unit": "",
+    "display": "40 个随机整数的均值",
+    "id": "Q006",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2a_product",
+    "tier": 3,
+    "prompt": "请估算 8207 × 1761 的值。先给出你的点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 14452527,
+    "unit": "",
+    "display": "8207 × 1761",
+    "id": "Q007",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2b_charcount",
+    "tier": 3,
+    "prompt": "下面这段随机字母串中，字母 'l' 一共出现了多少次？\n请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。\n（文本长度 1200 字符，你不需要精确逐个数，可以估算。）\n\nsbcnhfkbvptpxrmeyjzvqptnpyqacfnzxjjwycvevuypsbkghessohtduepdepfstxohdnreyljgtcsswjjjlqabxrmfgmeslqiazgkkqjrdkvcjawczzrrg ...[截断]... erlguyzskricjfhobewbqjtgcndbmbssdalhfdecpqakoolwoxrpvuxjlegw",
+    "truth": 48,
+    "unit": "次",
+    "display": "字母 'l' 出现次数（长度 1200）",
+    "_text": "sbcnhfkbvptpxrmeyjzvqptnpyqacfnzxjjwycvevuypsbkghessohtduepdepfstxohdnreyljgtcsswjjjlqabxrmfgmeslqiazgkkqjrdkvcjawczzrrglkzffztzrzhgyvubeqcjerikhkuqwoqfvtycxakimytlnlsvcknkjemownjdfbkgyulhrnogjeeifpdbfayahqrqavypoeksqnytvnkjstyrjfocywzccwqumqapujfnenyxcrbuiaszyzikugsjzqkmcaoutiqovqqgixktobeihllxvwtcqvwclthmpbhjvfyjuuexstowfxwletloxqvpkqujrofaredacaemskqmifaszmcsbudciozzhcyarchlgfampdjlrqwcynjvyzeyaagupsurapughtllmjkdnfwchyudaztvkdfwkrdpimumoofxtdrpwvfwavpszriumkqqvrkxzubznuryhpmbaktfdmmwhvmmyrshpqnnqecxxpobbyglzbxjnmrzwhethilgsmxrabtadhiitbyhcaiylqgerjldmbdwvsedhyajlzrwcqrnjueuqopnunahghwkdlfuduncfeifepjkzqnxoygbokjuuejeqpuovpjavrcmdimosgvspoqdohvqzjxfjyckevtthzsxqmnofmuoufqfmifkiodkxcqqdncmoneyrklrzygpfbcdolztmnhtsxtwsktrotfllenfllttkwmrgjgcsgpkrqvqsqpkpuhqsnfkbpohilfrhpvnmzpqlvcqlvfeeuuikktqsczktlwvcwnqinhknxxwtfhuctudbghqcrvgcagackqbpjaebmtxomqbaketzxpwfiohdyhegxvpxcvmhamqmevyqefyusezeqkjmdhutppbfslndjfkcwzdrhoycufncwkarkheutvutyknpaalntkruzmrlzqrejylqllmvufvyvsgpxtkcbbjgojgditnacbniqfbpnzmmexooriiwdpxnkqoditseukwcrleyuhpuuqozwbjjlhuphhuwzrayhfofscsmyfzzoactjaigyjhnidgulypsaplrrtsaoltvflabtwjoptpcjgdrcqdtibbcftujtdjvnkxerlguyzskricjfhobewbqjtgcndbmbssdalhfdecpqakoolwoxrpvuxjlegw",
+    "id": "Q008",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2c_seqstat",
+    "tier": 3,
+    "prompt": "有一组共 120 个取自 1–1000 均匀分布的随机整数，其前 5 个是：[209, 32, 984, 754, 692]。\n请估算这 120 个数的平均值。先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 491.75,
+    "unit": "",
+    "display": "120 个随机整数的均值",
+    "id": "Q009",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2a_product",
+    "tier": 4,
+    "prompt": "请估算 71048 × 57731 的值。先给出你的点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 4101672088,
+    "unit": "",
+    "display": "71048 × 57731",
+    "id": "Q010",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2b_charcount",
+    "tier": 4,
+    "prompt": "下面这段随机字母串中，字母 'o' 一共出现了多少次？\n请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。\n（文本长度 2400 字符，你不需要精确逐个数，可以估算。）\n\nlltmrjhkdehnuzpsnqepkkvonwuzwdhospkgeykriojktjrusbtanfkcnavqaczrybaqtrhcxyjzqrrpkwxeazjknqftoebvmsttvumuaaiysgzibuiqaexr ...[截断]... cqudaiyjjcnmrqacwivpccflzhxyaychqmalpkrqdnkhedkohohtzzvhuglx",
+    "truth": 93,
+    "unit": "次",
+    "display": "字母 'o' 出现次数（长度 2400）",
+    "_text": "lltmrjhkdehnuzpsnqepkkvonwuzwdhospkgeykriojktjrusbtanfkcnavqaczrybaqtrhcxyjzqrrpkwxeazjknqftoebvmsttvumuaaiysgzibuiqaexrfkvfrxoyzpydymlwgfwbeocrrnprdqclizneoxbpsdjcvupamzhyvpxkkzvvqimpzctxexvmqyqgvhxecvaggbavbljdjljwoiygjatqglzykumenkhrtxlpzghcxdwogebcafypzvqvnatniimnxtxcufpqceklcfbkgrqokqtnguostjqffdgwpyefokswnlbcejgjwestthtwzzfrnedccdhmipcwzpnmcphwiusrkczkobvubvvjfyflgltuaitpmajgxokjhghznsdsjsbirnswssokwbfydjfpxrydktvfjqxmxmltmpncoapfhduwegiybsowlivhbkyzfhxvffmgsjcmtakfzoaxtztqmssxyjnyuwxbhsjtrybmffnnnfapimfhdyvgqpyalyhvzentjfrcybqjdyexfoffrkyxoeironcobaxklcgxxofrlplviupufqywcwvnvwvxtmlxdziavpniurzmscgzjjkkntdibmkrrlrlzwjrjmubogemobqzzpojdyttawdcpfekttsahmaauaaloqjpvenxrzuqgkdzdnbehtgnaumkngkxtkuvlubkphdnlmaxhospgaiogyllmkvsvsfggmxhcxgjsawbjhteyqjpbdhfsuczxdftoajvanmyyllxheirmhlizhcevmxmgyqqazdfueujowfirjordubjsahhkmobuesrljprhbzaxmreqgcwyoxovlepeoxhlnfrhhfesggghuarbcupgowstaeskmtnlbgkngfuymofkbzbtufrdmzhlvifyajuedoqfrxbdncvpqkjzfxeiczdbzgvqqrhjcvnzhmmysbyxgpmgrkjquhwgcyycjigorbhvnzlyhehbqgzkxorxptjmbzlobyffrozkcvlywtehuwzsqugbdfplugywagmnfilyzxdbyntnridtycjhqtywnchdgccnogawzjkqtnwiaiawxwrjyjycmbsfrgezemxcqdhmxthsftsnnybtkcdgfbdagaxluqfznuwrvfqnlldogvfsnmtunksnlvaphstcpgsagjsgpaziflguubwrjninbdxpeqmjffvdpyjsbacizdqoroqknoipjextopvwaveaknlnayysritoqyuqdsbhikmukfbsvavanqhdjnvqvotshsuhshjbsvqjhuxubhhlljgffrswxpwaircmqlhjgdjdeyxrzekiafucqyjtuhsgbvtktkwvhviqueyfnbjamatttpoaftjqtuvcebqflfxmgsxiludqakypiiveeblkdkglvmssocxuriycnnnqdhzdxhbnjjztudbvwtebxrahmzichhokftucgonwzvymkbkqlpxpgfcphydqlstaoqkdsgthepjuaxsbskhnjgqtoxaphrroyrnminnknfmwletllljgowpjimfbtqdrpmhcsrgplmbvsmiyjkxmslpzydrpaajdpnvgnuchbkgkujcugkesfwzdldshbvminkafnsoifjdtjsqunmohebxaigknbrzfunvddbqtnwxkuojzbaxqjgetjcrzxsiuxmzikrnfzfrrnjqgpdcfpxipscimwtrysnvvjxalqeskrdekmioahcnshkixwlyylqewapudgvquuuozmogerqheuvkvqwfcaoyirdshyyysoflogxwztljkngzwoxbzqijvcwwlsokriqflkqbwrzumqedcpbwvfuitrzjeowllbgllhjopqhvqyymdjfatzrvfyaucqkzaokzfxcqnxsocuahepqnfogvgkryqtxnbnhjswmudcnjglfpytkfgmgjyfnimeaopcaiydljsxrojgxqdcrolxklkwcfikihikvgpkxoypydstvhhxsiqnhfpxxkpesqveimkzgxnirjrfbckfmlrjsgbwdjkxbaaosmswiwlvgynknmlbnnpkopskxzkvjufbpzjvsrwddavnpwepqoewlnjtdrbvrdnzhbqgjgzfaytkyofccepemihdthlacncadujsetnaltxoukwsjvezasexoiliihfyllcjoxqazogpakotbddylnpfywfkrgpuimmswhegmysmjbsqigyxwwwgdqydqubtaspuxdltjualyoxvikpsnlnpimajqothiqqmbuvcprdgkbevxeyzctwqonxelxkixfasqsswsmbzgxcqudaiyjjcnmrqacwivpccflzhxyaychqmalpkrqdnkhedkohohtzzvhuglx",
+    "id": "Q011",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F2c_seqstat",
+    "tier": 4,
+    "prompt": "有一组共 400 个取自 1–1000 均匀分布的随机整数，其前 5 个是：[143, 656, 991, 666, 348]。\n请估算这 400 个数的平均值。先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 516.915,
+    "unit": "",
+    "display": "400 个随机整数的均值",
+    "id": "Q012",
+    "contamination": "fresh",
+    "verified": true
+  },
+  {
+    "family": "F1_almanac",
+    "tier": 1,
+    "prompt": "问题：地球赤道半径（km） 是多少？请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 6378.137,
+    "unit": "",
+    "display": "地球赤道半径（km）",
+    "verified": false,
+    "id": "S001",
+    "contamination": "known"
+  },
+  {
+    "family": "F1_almanac",
+    "tier": 1,
+    "prompt": "问题：光在真空中的速度（m/s） 是多少？请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 299792458,
+    "unit": "",
+    "display": "光在真空中的速度（m/s）",
+    "verified": false,
+    "id": "S002",
+    "contamination": "known"
+  },
+  {
+    "family": "F1_almanac",
+    "tier": 1,
+    "prompt": "问题：一个标准大气压（Pa） 是多少？请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 101325.0,
+    "unit": "",
+    "display": "一个标准大气压（Pa）",
+    "verified": false,
+    "id": "S003",
+    "contamination": "known"
+  },
+  {
+    "family": "F1_almanac",
+    "tier": 1,
+    "prompt": "问题：成年人体内骨骼的块数 是多少？请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 206,
+    "unit": "",
+    "display": "成年人体内骨骼的块数",
+    "verified": false,
+    "id": "S004",
+    "contamination": "known"
+  }
+]

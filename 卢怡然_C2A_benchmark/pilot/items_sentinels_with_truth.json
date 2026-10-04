@@ -1,0 +1,46 @@
+[
+  {
+    "family": "F1_almanac",
+    "tier": 1,
+    "prompt": "问题：地球赤道半径（km） 是多少？请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 6378.137,
+    "unit": "",
+    "display": "地球赤道半径（km）",
+    "verified": false,
+    "id": "S001",
+    "contamination": "known"
+  },
+  {
+    "family": "F1_almanac",
+    "tier": 1,
+    "prompt": "问题：光在真空中的速度（m/s） 是多少？请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 299792458,
+    "unit": "",
+    "display": "光在真空中的速度（m/s）",
+    "verified": false,
+    "id": "S002",
+    "contamination": "known"
+  },
+  {
+    "family": "F1_almanac",
+    "tier": 1,
+    "prompt": "问题：一个标准大气压（Pa） 是多少？请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 101325.0,
+    "unit": "",
+    "display": "一个标准大气压（Pa）",
+    "verified": false,
+    "id": "S003",
+    "contamination": "known"
+  },
+  {
+    "family": "F1_almanac",
+    "tier": 1,
+    "prompt": "问题：成年人体内骨骼的块数 是多少？请先给出点估计，再给出一个你有 90% 把握覆盖真值的区间。",
+    "truth": 206,
+    "unit": "",
+    "display": "成年人体内骨骼的块数",
+    "verified": false,
+    "id": "S004",
+    "contamination": "known"
+  }
+]

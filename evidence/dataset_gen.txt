@@ -1,0 +1,7 @@
+题集已生成：66 题（seed=20261004）
+  含真值（评分用，不要发给被测方）：dataset\items_with_truth.json
+  无真值（发给被测方）          ：dataset\items_public.json
+    F1_almanac       6 题
+    F2a_product      20 题
+    F2b_charcount    20 题
+    F2c_seqstat      20 题

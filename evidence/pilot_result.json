@@ -1,0 +1,26 @@
+{
+  "module_a": {
+    "n": 12,
+    "claimed_coverage": 0.9,
+    "hit_rate": 1.0,
+    "coverage_gap": -0.09999999999999998,
+    "mean_rel_winkler": 0.41020265759250574,
+    "mean_rel_half_width": 0.20510132879625287,
+    "metacog_sensitivity": 0.8094247759339596,
+    "mean_rel_abs_error": 0.10297284817561826
+  },
+  "contamination": {
+    "fresh": {
+      "n": 12,
+      "claimed_coverage": 0.9,
+      "hit_rate": 1.0,
+      "coverage_gap": -0.09999999999999998,
+      "mean_rel_winkler": 0.41020265759250574,
+      "mean_rel_half_width": 0.20510132879625287,
+      "metacog_sensitivity": 0.8094247759339596,
+      "mean_rel_abs_error": 0.10297284817561826
+    },
+    "known": null,
+    "gap": null
+  }
+}
